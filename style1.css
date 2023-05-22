@@ -19,11 +19,21 @@
  }
 
  .button{
+   background-color: #000;
    display: flex;
    justify-content: center;
    align-items: center;
    background: url(cafe.jpg) no-repeat center center / cover;
-   height: 300px;
+   height: 900px;
+}
+.button p{
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  transform: translate(-50%,-50%);
+  font-size: 60px;
+  color:#ffffff;
+  margin:0;
 }
 .button>a{
    display: block;
