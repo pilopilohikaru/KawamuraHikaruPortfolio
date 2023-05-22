@@ -1,12 +1,12 @@
 .container{
-    background-color: #000;
+    background-color: #fffcfc;
     width: auto;
     position: relative;
   }
   .container img{
-    opacity: 0.5;
-    display:block;
-    width:100%;
+    display:flex;
+    justify-content: center;
+    width:30%;
   }
   .container p{
     position: absolute;
@@ -14,9 +14,14 @@
     left: 80%;
     transform: translate(-50%,-50%);
     font-size: 60px;
-    color:#ffffff;
+    color:#000000;
     margin:0;
   }
+
+.SkillImage img{
+    display:flex;
+    width:80%
+}
  
   .button{
     display: flex;
